@@ -24,6 +24,10 @@ Using the Console:
   1) Load, input a previous map data string into the console and click Load to continue your work / load all nodes onto the screen. WARNING: If console is empty and Load is clicked all nodes on the map will be wiped  
   2) Update/String Conversion, click Update to output all map data onto the console. This string contains img dimensions and a list of all map data (Node objects with room number, coords and dimensions)
 
+<h1>Creating the Room Locator Site</h1>
+
+
+
 
 <h1>Why this Tool was made</h1>
     
@@ -36,18 +40,20 @@ Use \<map> and \<area> html elements and use any of the online Image Map tools.
 Issues with this: No built in scaling/responsiveness
                   Messy HTML
                   All /<area> elements will need to load, we only need the user room number input to load
+                  Not built for this purpose
+                  Accessability
 
-**Alternatively Recreate \<map> \<area> functionality using \<div> \<img> and css:**
+**Alternatively Recreate \<map> \<area> functionality using \<button> \<img> and css:**
   
   Nest an img inside a container div and set the div's position attribute to relative. That container will function as the \<map>
-  Next nest a \<div> within that container div from before. We'll use this div as a node to define a room number's area on the map.
-  To do so this node div's css position attribute must be absolute. This \<div> node can now be used like an \<area> element by
-  positioning the div using the top: and left: attributes
+  Next nest a \<button> within that container div from before. We'll use this button as a node to define a room number's area on the map.
+  To do so this node button's css position attribute must be absolute. This \<button> node can now be used like an \<area> element by
+  positioning the button using the top: and left: attributes
 
 We've recreate \<map> \<area> funcionallity now lets resolve those issues from before    
   
-**Only load one html element:** Since our map data is stored as a string we can read the string until we find the room number along with its data, we recreate the \<div> using that data.  
-**Cleaner HTML:** No HTML is shown, all room locations are added through javascript. If a new room number is inputted the previous inputted rooms according div is deleted.  
+**Only load one html element:** Since our map data is stored as a string we can read the string until we find the room number along with its data, we recreate the \<button> using that data.  
+**Cleaner HTML:** No HTML is shown, all room locations are added through javascript. If a new room number is inputted the previous inputted rooms the according button is deleted.  
 **Scaling:** The original img dimensions are stored in the map data, using this we scale node coordinates and dimensions using by calculating the change in aspect ratio between the current img and the original img
 
 
