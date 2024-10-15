@@ -2,7 +2,7 @@
 
 <h1>How to Use</h1>
 
-Prep:
+Prep:  
   Make sure you have all of the following files together in a folder, index.html, mapstyle.css, scripts.js, style.css
   Prep your floorplans with file types that are compatible with the \<img> tag. Place it with the same folder.
   Open up VSCode and install Live Server Extension, then open up the index.html file and use Live Server to "Go Live"
