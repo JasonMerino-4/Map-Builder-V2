@@ -1,6 +1,6 @@
 # Map-Builder-V2
 
-****How to use:****
+<h1>How to Use</h1>
 
 Prep:
   Make sure you have all of the following files together in a folder, index.html, mapstyle.css, scripts.js, style.css
