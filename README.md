@@ -46,7 +46,7 @@ Issues with this: No built in scaling/responsiveness
 
 We've recreate \<map> \<area> funcionallity now lets resolve those issues from before    
   
-Only load one html element: Since our map data is stored as a string we can read the string until we find the room number along with its data, we recreate the <div> using that data.  
+Only load one html element: Since our map data is stored as a string we can read the string until we find the room number along with its data, we recreate the \<div> using that data.  
 Messy HTML: No HTML is shown, all room locations are added through javascript. If a new room number is inputted the previous inputted rooms according div is deleted.
 Scaling: The original img dimensions are stored in the map data, using this we scale node coordinates and dimensions using by calculating the change in aspect ratio between the current img and the original img
 
