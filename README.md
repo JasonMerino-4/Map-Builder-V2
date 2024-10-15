@@ -1,6 +1,7 @@
 # Map-Builder-V2
-Used to define room areas in a floorplan.
+The problem: Finding rooms in a multifloor large building is tedious.
+Solution: Using building floorplans, let the user input a roomnumber and change the img src to the according floorplan and highlight the room.
 
-<div>
-  
-</div>
+How do we create this functionallity?
+
+Use \<map> and \<area>
