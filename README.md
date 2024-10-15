@@ -20,7 +20,7 @@ Prep:
   Use the site to place all room nodes accordingly on the floorplan once complete you can convert img dimensions and all node data into one string using the console. 
   img dimensions are used to scale nodes in case your wondering.
 
-Using the Console:
+Using the Console:  
     1) Load, input a previous map data string into the console and click Load to continue your work / load all nodes onto the screen. WARNING: If console is empty and Load is clicked all nodes on the map will be wiped
     2) Update/String Conversion, click Update to output all map data onto the console. This string contains img dimensions and a list of all map data (Node objects with room number, coords and dimensions)
 
