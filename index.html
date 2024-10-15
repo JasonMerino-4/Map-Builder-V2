@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map Builder</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./mapstyle.css">
+    <script src="./script.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
+</head>
+
+<body>
+    <main>
+        <div id="nodeeditor-bar">
+            <button id="addnode">Add</button>
+            <div class="borderpop">
+                <label class="nodeinput-labels" for="room-input">Room</label>
+                <input class="nodeinputs" id="room-input" type="text">
+            </div>
+
+            <div class="borderpop">
+                <label class="nodeinput-labels" for="shape-selection">Shape</label>
+                <select class="nodeinputs" id="shape-selection">
+                    <option value="rectangle">rectangle</option>
+                    <option value="circle">circle</option>
+                </select>
+            </div>
+            <div class="borderpop">
+                <label class="nodeinput-labels" for="nodewidth-input">Width</label>
+                <input class="nodeinputs" id="nodewidth-input" type="number">
+            </div>
+            <div class="borderpop">
+                <label class="nodeinput-labels" for="nodeheight-input">Height</label>
+                <input class="nodeinputs" id="nodeheight-input" type="number">
+            </div>
+            <div class="borderpop">
+                <label class="nodeinput-labels" for="noderotation-input">Rotation</label>
+                <input class="nodeinputs" id="noderotation-input" type="number">
+            </div>
+            <button id="deletenode">Delete</button>
+        </div>
+        <div id="map-wrapper">
+            <img id="floorplan">
+        </div>
+        <div id="imgeditor-bar">
+            <div class="borderpop">
+                <label for="imgpath-input" class="imginput-labels">Img File Path</label>
+                <input class="imginputs" id="imgpath-input" type="text">
+            </div>
+            <div class="borderpop">
+                <label for="imgwidth-input" class="imginput-labels">Img Width</label>
+                <input class="imginputs" id="imgwidth-input" type="number">
+            </div>
+        </div>
+        <div id="console-wrapper">
+            <div id="console-buttons">
+                <button id="load-nodes">load</button>
+                <button id="update-console">update</button>
+            </div>
+            <textarea id="console">
+
+            </textarea>
+        </div>
+    </main>
+</body>
+
+</html>

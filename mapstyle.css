@@ -1,0 +1,29 @@
+#map-wrapper {
+    overflow: auto;
+    position: relative;
+    max-height: 75vh;
+}
+
+.circle{
+    border-radius: 50%;
+}
+
+.node {
+    mix-blend-mode: difference;
+    width:32px;
+    height:32px;
+    background-color: white;
+    position: absolute;
+    border: none;
+}
+
+.focused-node {
+    mix-blend-mode: normal;
+    width:32px;
+    height:32px;
+    border:1px solid black;
+    background-color: rgba(128, 128, 128, 0.5);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}

@@ -1,0 +1,193 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+main {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3fr 1fr;
+    height: 95vh;
+}
+
+#nodeeditor-bar {
+    padding: 40px 40px;
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 75vh;
+}
+
+#imgeditor-bar {
+    padding: 20px 40px;
+    background-color: rgb(43, 43, 43);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#console-wrapper{
+    background-color: rgb(83, 83, 83);
+}
+
+#map-wrapper{
+    background-image: linear-gradient(#ffffff 1px, transparent 1px), linear-gradient(to right, #ffffff 1px, transparent 1px);
+    background-size: 100px 100px;
+    background-color: #88916a;
+    width: 80vw;
+}
+
+#top-nodeeditor-buttons{
+    display: flex;
+    gap: 18px;
+}
+
+#addnode {
+    background-color: rgb(106,168,79);
+    border: none;
+    border-bottom:10px solid green;;
+    color: white;
+    font-size: 20px;
+    height: 60px;
+    width: 100px;
+    font-weight:900;
+    margin-bottom: 40px;
+}
+
+#grabnode {
+    background-color: rgb(106,168,79);
+    border: none;
+    border-bottom:10px solid green;;
+    color: white;
+    font-size: 20px;
+    height: 60px;
+    width: 100px;
+    font-weight:900;
+    margin-bottom: 40px;
+}
+
+#square{
+    height: 45px;
+    width:45px;
+    border: 4px solid rgb(43, 43, 43);
+    background-color: white;;
+}
+
+#circle{
+    height: 45px;
+    width: 45px;
+    border: 4px solid rgb(43, 43, 43);
+    border-radius: 50%;
+    background-color: white;;
+}
+
+#deletenode {
+    margin-top: 40px;
+    background-color: rgb(230, 86, 61);
+    border: none;
+    border-bottom: 10px solid rgb(192, 44, 18);
+    color: white;
+    font-size: 20px;
+    height: 60px;
+    width: 100px;
+    font-weight:900;
+}
+
+#console-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+#console-buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+#console{
+    background-color: rgb(80,80,80);
+    padding: 16px 16px;
+    border: none;
+    color: white;
+    flex-grow: 1;
+}
+
+#load-nodes{
+    flex: 1;
+    background-color: rgb(106,168,79);
+    border: none;
+    border-bottom:10px solid green;;
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    width: 100px;
+    font-weight:900;
+}
+
+#update-console{
+    flex: 1;
+    background-color: orange;
+    border: none;
+    border-bottom: 10px solid rgb(201, 131, 1);
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    width: 100px;
+    font-weight:900;
+}
+
+.nodeinput-labels{
+    font-weight: bold;
+    color: rgb(43, 43, 43);
+    display: block;
+    background-color: rgb(236, 236, 236);
+    border: none;
+    width: 100%;
+}
+
+.imginput-labels{
+    font-weight: bold;
+    color: rgb(236, 236, 236);
+    display: block;
+    background-color: rgb(43, 43, 43);
+    border: none;
+    width: 100%;
+}
+
+.nodeinputs, .imginputs {
+    width: 100%;
+    height: 70%;
+    border: 2px solid darkgray;
+}
+
+.borderpop{
+    height: 80px;
+    background-color: darkgrey;
+}
+
+
+#newnode:hover{
+    filter:brightness(1.15);
+}
+
+#deletenode:hover{
+    filter: brightness(1.15);
+}
+
+#resetnode:hover{
+    filter: brightness(1.15);
+}
+
+#loadnodes:hover{
+    filter: brightness(1.15);
+}
+
+#updatenodes:hover{
+    filter:brightness(1.15);
+}
+
+
