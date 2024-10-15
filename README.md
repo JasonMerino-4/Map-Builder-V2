@@ -10,11 +10,11 @@ Issues with this: No built in scaling/responsiveness
                   All /<area> elements will need to load, we only need the user room number input to load
 
 Alternatively:
-  Recreate /<map> /<area> functionality using /<div> /<area> and css:
+  Recreate \<map> \<area> functionality using \<div> \<area> and css:
   
-      Nest an img inside a container div and set the div's position attribute to relative. That container will function as the /<map>\n
-    Next nest a /<div> within that container div from before. We'll use this div as a node to define a room number's area on the map.\n
-    To do so this node div's css position attribute must be absolute. This /<div> node can now be used like an /<area> element by\n
+      Nest an img inside a container div and set the div's position attribute to relative. That container will function as the \<map>
+    Next nest a \<div> within that container div from before. We'll use this div as a node to define a room number's area on the map.
+    To do so this node div's css position attribute must be absolute. This \<div> node can now be used like an \<area> element by
     positioning the div using the top: and left: attributes
     
 
