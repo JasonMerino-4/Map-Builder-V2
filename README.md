@@ -25,7 +25,7 @@ Using the Console:
   2) Update/String Conversion, click Update to output all map data onto the console. This string contains img dimensions and a list of all map data (Node objects with room number, coords and dimensions)
 
 
-
+<h1>Why this Tool was made</h1>
     
 **The problem:** Finding rooms in a multifloor large building is tedious.
 **Solution:** Using building floorplans, let the user input a room number and change the img src to the according floorplan and highlight the room.
