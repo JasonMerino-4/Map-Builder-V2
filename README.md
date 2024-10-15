@@ -37,11 +37,10 @@ Using the Console:
 **How do we create this functionallity?**
 
 Use \<map> and \<area> html elements and use any of the online Image Map tools.
-Issues with this: No built in scaling/responsiveness
-                  Messy HTML
-                  All /<area> elements will need to load, we only need the user room number input to load
-                  Not built for this purpose
-                  Accessability
+Issues with this:  No built in scaling/responsiveness  
+                  Messy HTML  
+                  All /<area> elements will need to load, we only need the user room number input to load  
+                  Not built for this purpose  
 
 **Alternatively Recreate \<map> \<area> functionality using \<button> \<img> and css:**
   
