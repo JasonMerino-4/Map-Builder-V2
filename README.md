@@ -25,7 +25,7 @@ Using the Console:
   2) Update/String Conversion, click Update to output all map data onto the console. This string contains img dimensions and a list of all map data (Node objects with room number, coords and dimensions)
 
 <h1>Creating the Room Locator Site</h1>
-<a href = "https://github.com/JasonMerino-4/MapSiteTemplate/tree/main">Multi Building template</a>
+<a href = "https://github.com/JasonMerino-4/MapSite-Template">Multi Building template</a>
 <p>I left some notes on the readme for the template, modify the template as you need</p>
 
 
